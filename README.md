@@ -8,6 +8,7 @@ Pre-requisites:
 
 * launch the docker notebook: 
 ``` bash
-docker run -it -p 8888:8888 -v `pwd`:/home/jovyan/work --rm --name jupyter jupyter/pyspark-notebook```
+docker run -it -p 8888:8888 -v `pwd`:/home/jovyan/work --rm --name jupyter jupyter/pyspark-notebook
+```
 
 * open the browser and copy paste the address printed on the terminal (ex: http://localhost:8888/?token=...)
