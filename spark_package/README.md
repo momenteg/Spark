@@ -1,4 +1,4 @@
-#How to develop locally with pyspark:
+# How to develop locally with pyspark:
 
 - install anaconda
 - install pyspark 
