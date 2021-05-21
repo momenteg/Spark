@@ -6,6 +6,6 @@ from pyspark.sql import SparkSession
 
 
 def init_spark():
-    spark = SparkSession.builder.appName("spark_application").getOrCreate()
+    spark = SparkSession.builder.master("local[4]").appName("spark_application").getOrCreate()
     sc = spark.sparkContext
     return spark, sc
